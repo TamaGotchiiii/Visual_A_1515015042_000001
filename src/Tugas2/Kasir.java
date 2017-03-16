@@ -1,3 +1,5 @@
+package Tugas2;
+
 
 import javax.swing.JOptionPane;
 import javax.swing.JSpinner;

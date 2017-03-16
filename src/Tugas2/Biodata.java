@@ -295,6 +295,7 @@ public class Biodata extends javax.swing.JFrame {
             Hobi[i]=CekLain.getText();
             i++;
         }
+        
         data.TOutput.setText("Nama\t\t: "+Nama+
                 "\nTempat/Tanggal Lahir\t: "+ttl+
                 "\nJenis Kelamin\t\t: "+JenKel+
