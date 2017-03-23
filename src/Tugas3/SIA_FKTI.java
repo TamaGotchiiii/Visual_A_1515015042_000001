@@ -77,7 +77,7 @@ public class SIA_FKTI extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(55, 100, 200));
         jPanel1.setLayout(new java.awt.CardLayout());
 
-        Home.setBackground(new java.awt.Color(55, 100, 200));
+        Home.setBackground(new java.awt.Color(157, 15, 15));
 
         jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\acer\\Downloads\\FKTI.jpg")); // NOI18N
 
@@ -94,7 +94,10 @@ public class SIA_FKTI extends javax.swing.JFrame {
                 .addGap(43, 43, 43)
                 .addComponent(jLabel6)
                 .addContainerGap(59, Short.MAX_VALUE))
-            .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(HomeLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         HomeLayout.setVerticalGroup(
             HomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -360,7 +363,7 @@ public class SIA_FKTI extends javax.swing.JFrame {
                 .addContainerGap(26, Short.MAX_VALUE))
         );
 
-        jPanel5.setBackground(new java.awt.Color(55, 100, 200));
+        jPanel5.setBackground(new java.awt.Color(157, 15, 15));
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));

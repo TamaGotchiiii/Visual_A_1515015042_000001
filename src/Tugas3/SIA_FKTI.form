@@ -71,7 +71,7 @@
         <Container class="javax.swing.JPanel" name="Home">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="c8" green="64" red="37" type="rgb"/>
+              <Color blue="f" green="f" red="9d" type="rgb"/>
             </Property>
           </Properties>
           <Constraints>
@@ -88,7 +88,11 @@
                       <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace pref="59" max="32767" attributes="0"/>
                   </Group>
-                  <Component id="jLabel10" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel10" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
@@ -530,7 +534,7 @@
     <Container class="javax.swing.JPanel" name="jPanel5">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="c8" green="64" red="37" type="rgb"/>
+          <Color blue="f" green="f" red="9d" type="rgb"/>
         </Property>
       </Properties>
 
